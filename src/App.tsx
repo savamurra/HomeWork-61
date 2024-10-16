@@ -1,8 +1,8 @@
 import "./App.css";
-import Country from './containers/Country/Country.tsx';
+import Country from "./containers/Country/Country.tsx";
 
 function App() {
-  return <Country/>;
+  return <Country />;
 }
 
 export default App;

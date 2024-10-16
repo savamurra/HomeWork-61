@@ -1,6 +1,6 @@
 export interface APICountry {
   name: string;
-  alpha3Code: string
+  alpha3Code: string;
 }
 
 export interface APIOneCountry {
@@ -10,4 +10,5 @@ export interface APIOneCountry {
   population: number;
   region: string;
   subregion: string;
+  borders: string[];
 }
