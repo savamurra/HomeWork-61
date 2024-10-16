@@ -1,0 +1,7 @@
+p{
+  margin: 12px;
+  cursor: pointer;
+}
+p:hover {
+  text-decoration: underline;
+}
