@@ -24,7 +24,7 @@ const CountriesInfo: React.FC<Props> = ({ alphaCode }) => {
       setCountries(countryRes);
       if (countryBorder) {
         const borderPromise = countryBorder.map(async (alphaCode) => {
-          const axiosResponse = await axios.get(
+          const axiosResponse: { data: APIOneCountry } = await axios.get(
             `https://restcountries.com/v2/alpha/${alphaCode}`,
           );
           return axiosResponse.data;
